@@ -1,2 +1,8 @@
 src/*.c.d
 src/*.c.o
+*.a
+*.so
+
+example/*/*.c.elf
+
+*.swp
