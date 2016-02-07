@@ -15,6 +15,15 @@
 #define KOIKOI_CMD_PLAY ((koikoi_cmd_t) 2)
 #define KOIKOI_CMD_BYE ((koikoi_cmd_t) 3)
 
+	typedef uint8_t koikoi_play_t;
+#define KOIKOI_PLAY_ERROR ((koikoi_play_t) 0)
+#define KOIKOI_PLAY_OP_ERROR ((koikoi_play_t) 1)
+#define KOIKOI_PLAY_INIT ((koikoi_play_t) 2)
+#define KOIKOI_PLAY_PHASE1 ((koikoi_play_t) 3)
+#define KOIKOI_PLAY_PHASE2 ((koikoi_play_t) 4)
+#define KOIKOI_PLAY_PHASE3 ((koikoi_play_t) 5)
+#define KOIKOI_PLAY_FINALIZE ((koikoi_play_t) 6)
+
 	typedef struct {
 		struct {
 			enum koikoi_prot_type type;
