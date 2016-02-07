@@ -12,6 +12,8 @@
 	typedef uint8_t koikoi_cmd_t;
 #define KOIKOI_CMD_INVALID ((koikoi_cmd_t) 0)
 #define KOIKOI_CMD_HELLO ((koikoi_cmd_t) 1)
+#define KOIKOI_CMD_PLAY ((koikoi_cmd_t) 2)
+#define KOIKOI_CMD_BYE ((koikoi_cmd_t) 3)
 
 	typedef struct {
 		struct {
