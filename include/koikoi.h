@@ -24,7 +24,7 @@
 #define KOIKOI_PLAY_PHASE3 ((koikoi_play_t) 5)
 #define KOIKOI_PLAY_FINALIZE ((koikoi_play_t) 6)
 
-	typedef uint8_t koikoi_play_prder_t;
+	typedef uint8_t koikoi_play_order_t;
 #define KOIKOI_PLAY_ORDER_INVALID ((koikoi_play_order_t) 0)
 #define KOIKOI_PLAY_ORDER_FIRST ((koikoi_play_order_t) 1)
 #define KOIKOI_PLAY_ORDER_SECOND ((koikoi_play_order_t) 2)
